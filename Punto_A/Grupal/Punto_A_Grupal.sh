@@ -19,6 +19,17 @@ touch /Continentes/America/Canada/Quebec/.gitkeep
 touch /Continentes/America/Mexico/CiudadDeMexico/.gitkeep
 touch /Continentes/America/Mexico/Jalisco/.gitkeep
 touch /Continentes/America/Colombia/Bogota/.gitkeep
+# --- PARTE MANAGER - Continente: Europa ---
+# Estructura: 3 países con 1 a 3 ciudades cada uno
+mkdir -p /Continentes/Europa/{Espana/{Madrid,Barcelona,Valencia},Italia/{Roma,Milan},Francia/{Paris}}
+
+# Crear los .gitkeep en las carpetas hoja
+touch /Continentes/Europa/Espana/Madrid/.gitkeep
+touch /Continentes/Europa/Espana/Barcelona/.gitkeep
+touch /Continentes/Europa/Espana/Valencia/.gitkeep
+touch /Continentes/Europa/Italia/Roma/.gitkeep
+touch /Continentes/Europa/Italia/Milan/.gitkeep
+touch /Continentes/Europa/Francia/Paris/.gitkeep
 
 # Validación
 tree /Continentes/
