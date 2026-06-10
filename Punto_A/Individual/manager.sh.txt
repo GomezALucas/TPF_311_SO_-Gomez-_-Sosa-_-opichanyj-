@@ -1,8 +1,0 @@
-#!/bin/bash
-# Estructura corregida jerárquica
-mkdir -p ~/manager/Servicios/{Web,Base_de_Datos,Cache}
-mkdir -p ~/manager/Monitoreo/{Logs,Alertas,Metricas}
-
-# Creamos los .gitkeep
-touch ~/manager/Servicios/Web/.gitkeep ~/manager/Servicios/Base_de_Datos/.gitkeep ~/manager/Servicios/Cache/.gitkeep
-touch ~/manager/Monitoreo/Logs/.gitkeep ~/manager/Monitoreo/Alertas/.gitkeep ~/manager/Monitoreo/Metricas/.gitkeep
