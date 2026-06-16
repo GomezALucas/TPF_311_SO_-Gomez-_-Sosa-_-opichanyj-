@@ -31,5 +31,17 @@ touch /Continentes/Europa/Italia/Roma/.gitkeep
 touch /Continentes/Europa/Italia/Milan/.gitkeep
 touch /Continentes/Europa/Francia/Paris/.gitkeep
 
+# --- PARTE DEV - Continente: Asia ---
+# Estructura: 3 países con distribución asimétrica 3-2-1
+
+mkdir -p /Continentes/Asia/{Japon/{Tokio,Osaka,Kioto},China/{Pekin,Shanghai},CoreaDelSur/{Seul}}
+
+touch /Continentes/Asia/Japon/Tokio/.gitkeep
+touch /Continentes/Asia/Japon/Osaka/.gitkeep
+touch /Continentes/Asia/Japon/Kioto/.gitkeep
+touch /Continentes/Asia/China/Pekin/.gitkeep
+touch /Continentes/Asia/China/Shanghai/.gitkeep
+touch /Continentes/Asia/CoreaDelSur/Seul/.gitkeep
+
 # Validación
 tree /Continentes/
