@@ -5,7 +5,7 @@
 #   - El manager hace pull, corre su script, commitea y pushea.
 #   - El dev repite lo mismo.
 
-mkdir -p /Continentes/America/{Canada/{Ontario,BritishColumbia,Quebec},Mexico/{CiudadDeMexico,Jalisco},Colombia/{Bogota}}
+mkdir -p /Continentes/America/{Canada/{Ontario,BritishColumbia,Quebec},Mexico/{CiudadDeMexico,Jalisco},Colombia/Bogota}
 
 # Distribución asimétrica:
 #   Canada  - 3 provincias/ciudades
