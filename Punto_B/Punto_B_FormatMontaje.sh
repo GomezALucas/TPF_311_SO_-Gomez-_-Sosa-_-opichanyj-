@@ -3,11 +3,11 @@
 # Rol: sysadmin
 #
 # Mapa de montaje:
-#   sdb1 -> ~/sysadmin/Servicios/
-#   sdb2 -> ~/sysadmin/Monitoreo/
-#   sdb5 -> ~/sysadmin/Servicios/Web/
-#   sdb6 -> ~/sysadmin/Servicios/Cache/
-#   sdb7 -> ~/sysadmin/Monitoreo/Logs/
+#   sdc1 -> ~/sysadmin/Servicios/
+#   sdc2 -> ~/sysadmin/Monitoreo/
+#   sdc5 -> ~/sysadmin/Servicios/Web/
+#   sdc6 -> ~/sysadmin/Servicios/Cache/
+#   sdc7 -> ~/sysadmin/Monitoreo/Logs/
 
 # Obtener el home del usuario vagrant
 ROL_DIR="/home/vagrant/sysadmin"
@@ -18,11 +18,11 @@ mkdir -p "$ROL_DIR/Servicios/Cache"
 mkdir -p "$ROL_DIR/Monitoreo/Logs"
 
 # Obtener UUIDs de las particiones
-UUID_SDB1=$(blkid -s UUID -o value /dev/sdb1)
-UUID_SDB2=$(blkid -s UUID -o value /dev/sdb2)
-UUID_SDB5=$(blkid -s UUID -o value /dev/sdb5)
-UUID_SDB6=$(blkid -s UUID -o value /dev/sdb6)
-UUID_SDB7=$(blkid -s UUID -o value /dev/sdb7)
+UUID_SDB1=$(blkid -s UUID -o value /dev/sdc1)
+UUID_SDB2=$(blkid -s UUID -o value /dev/sdc2)
+UUID_SDB5=$(blkid -s UUID -o value /dev/sdc5)
+UUID_SDB6=$(blkid -s UUID -o value /dev/sdc6)
+UUID_SDB7=$(blkid -s UUID -o value /dev/sdc7)
 
 # Backup del fstab
 cp /etc/fstab /etc/fstab.bak
@@ -42,7 +42,7 @@ EOF
 mount -a
 
 echo "Montaje completado. Estado actual:"
-df -h | grep sdb
+df -h | grep sdc
 
 # Guardar output para el repo
 df -h > /home/vagrant/carpeta_compartida/Punto_B/df_output_sysadmin.txt

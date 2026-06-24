@@ -9,7 +9,7 @@
 #   sdb7 -> logica ~2.67 GB
 
 # Crear tabla de particiones con heredoc (sin intervencion manual)
-fdisk /dev/sdb << EOF
+fdisk /dev/sdc << EOF
 o
 n
 p
@@ -39,15 +39,15 @@ w
 EOF
 
 # Esperar a que el kernel registre las nuevas particiones
-partprobe /dev/sdb
+partprobe /dev/sdc
 sleep 2
 
 # Formatear todas las particiones con ext4
-mkfs.ext4 -F /dev/sdb1
-mkfs.ext4 -F /dev/sdb2
-mkfs.ext4 -F /dev/sdb5
-mkfs.ext4 -F /dev/sdb6
-mkfs.ext4 -F /dev/sdb7
+mkfs.ext4 -F /dev/sdc1
+mkfs.ext4 -F /dev/sdc2
+mkfs.ext4 -F /dev/sdc5
+mkfs.ext4 -F /dev/sdc6
+mkfs.ext4 -F /dev/sdc7
 
 echo "Particionamiento y formateo completados."
-lsblk /dev/sdb
+lsblk /dev/sdc
