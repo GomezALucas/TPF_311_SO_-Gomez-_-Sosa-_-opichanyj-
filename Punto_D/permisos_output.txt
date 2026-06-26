@@ -1,0 +1,6 @@
+drwx------ 2 vagrant vagrant 4096 Jun 26 04:08 /home/vagrant/dev/Servicios/Base_de_Datos
+drw-r--r-- 2 vagrant vagrant 4096 Jun 26 04:08 /home/vagrant/dev/Servicios/Cache
+drwxr-xr-x 2 vagrant vagrant 4096 Jun 26 04:08 /home/vagrant/dev/Servicios/Web
+drwx------ 2 vagrant vagrant 4096 Jun 26 04:08 /home/vagrant/dev/Monitoreo/Alertas
+drwxr-xr-- 2 vagrant vagrant 4096 Jun 26 04:08 /home/vagrant/dev/Monitoreo/Logs
+drwxr-xr-x 2 vagrant vagrant 4096 Jun 26 04:08 /home/vagrant/dev/Monitoreo/Metricas
