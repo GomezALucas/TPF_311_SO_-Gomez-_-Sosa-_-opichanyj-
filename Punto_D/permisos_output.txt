@@ -1,6 +1,14 @@
-drwx------ 2 vagrant vagrant 4096 Jun 26 04:08 /home/vagrant/dev/Servicios/Base_de_Datos
-drw-r--r-- 2 vagrant vagrant 4096 Jun 26 04:08 /home/vagrant/dev/Servicios/Cache
-drwxr-xr-x 2 vagrant vagrant 4096 Jun 26 04:08 /home/vagrant/dev/Servicios/Web
-drwx------ 2 vagrant vagrant 4096 Jun 26 04:08 /home/vagrant/dev/Monitoreo/Alertas
-drwxr-xr-- 2 vagrant vagrant 4096 Jun 26 04:08 /home/vagrant/dev/Monitoreo/Logs
-drwxr-xr-x 2 vagrant vagrant 4096 Jun 26 04:08 /home/vagrant/dev/Monitoreo/Metricas
+total 36
+drwxr-xr-x 6 root root  4096 Jun 27 20:15 .
+drwxr-xr-x 4 root root  4096 Jun 24 01:01 ..
+drwx------ 2 root root  4096 Jun 27 20:15 Base_de_Datos
+drw-r--r-- 3 root root  4096 Jun 24 01:01 Cache
+drwxr-xr-x 3 root root  4096 Jun 24 01:01 Web
+drwx------ 2 root root 16384 Jun 24 01:01 lost+found
+total 36
+drwxr-xr-x 6 root root  4096 Jun 27 20:16 .
+drwxr-xr-x 4 root root  4096 Jun 24 01:01 ..
+drwx------ 2 root root  4096 Jun 27 20:16 Alertas
+drwxr-xr-- 3 root root  4096 Jun 24 01:01 Logs
+drwxr-xr-x 2 root root  4096 Jun 27 20:16 Metricas
+drwx------ 2 root root 16384 Jun 24 01:01 lost+found
