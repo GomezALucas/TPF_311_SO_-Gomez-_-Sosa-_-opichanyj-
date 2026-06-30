@@ -1,0 +1,8 @@
+=== MEMORIA RAM TOTAL ===
+MemTotal:        6238684 kB
+
+=== CPU MODELO ===
+model name	: AMD Ryzen 3 3200G with Radeon Vega Graphics    
+
+=== FRECUENCIA CPU ===
+cpu MHz		: 3600.000
