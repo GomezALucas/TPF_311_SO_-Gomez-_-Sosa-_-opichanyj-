@@ -1,8 +1,3 @@
-=== MEMORIA RAM TOTAL ===
-MemTotal:        6238684 kB
-
-=== CPU MODELO ===
-model name	: AMD Ryzen 3 3200G with Radeon Vega Graphics    
-
-=== FRECUENCIA CPU ===
-cpu MHz		: 3600.000
+Total de memoria RAM: 2010780 kB
+Modelo del microprocesador: Intel(R) Core(TM) i5-9400F CPU @ 2.90GHz
+Frecuencia del microprocesador: 2904.01 MHz
